@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Anthony-ecf-2</title>
+</head>
+
+<body>
+  <!-- ###########################################
+                    HEADER
+################################################ -->
+  <section class="container mt-3 mb-5">
+    <div class="row">
+      <header class="header">
+        <a href="#" class="logo">Les Films de Plein Air</a> <!-- TITRE DU SITE -->
+        <input class="menu-btn" type="checkbox" id="menu-btn" /> <!-- HAMBURGER POUR OUVRIR MA NAVIGATION -->
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> <!-- ICON DE MON HAMBURGER -->
+        <ul class="menu">
+          <!-- NAVIGATION -->
+          <li><a href="index.html">Accueil</a></li> <!-- NAVIGATION -->
+          <li><a href="formulaire.html">Formulaire</a></li> <!-- NAVIGATION -->
+          <li><a href="quizz.html">Quizz - Tentez de remporter un ticket gratuit !</a></li> <!-- NAVIGATION -->
+        </ul> <!-- NAVIGATION -->
+      </header>
+    </div>
+  </section>
+  <!-- ###########################################
+                  QUUUUUUUUUUIZZ
+################################################ -->
+  <section class="container">   <!-- DEBUT DU CONTAINER -->
+    <!-- DEBUT QUIZZZZZZ -->
+    <div class="row d-block mx-auto">
+      <div id="wrapper">  <!-- DEBUT DU QUIZZ -->
+        <!-- METTRE EN POSITION RELATIVE MON QUIZZ POUR LE PLACEMENT -->
+        <div id="quiz" class="p-5 d-block mx-auto m-5">
+          <!-- ID Quizz pour le display:none, et remplacer mes éléments au clique de (Start, Suivant) -->
+
+          <div id="questions"><span class="text-white mx-auto">Êtes-vous un vrai fan de cinéma ?</span> <br> <span class="text-warning">Testez votre connaissance cinématographique avec ce quizz 100 % consacré aux comédiens burlesques. Saurez-vous
+              répondre aux questions ?</span> <!-- Début du quizz, message de début -->
+            <div id="start" class="scale-up-center d-block mx-auto mt-5">Start</div> <!-- BOUTON START POUR LANCER MON QUIZ -->
+          </div>
+
+          <div name="answersFrame" id="answersFrame" class="choices m-5 mx-auto">
+            <!-- LE DEBUT TABLEAU DE MES REPONSES (CHOIX) -->
+            <div>
+              <input type="radio" name="answers" class="choices " value=0> <!-- INPUT RADIO POUR SELECTIONNER UN CHOIX -->
+              <p id="zero" class="pickone text-success border m-2 mx-auto"></p> <!-- UNE DES REPONSES -->
+            </div>
+
+            <br>
+
+            <div>
+              <input type="radio" name="answers" class="choices" value=1> <!-- INPUT RADIO POUR SELECTIONNER UN CHOIX -->
+              <p id="one" class="pickone text-success border m-2 mx-auto"></p> <!-- UNE DES REPONSES -->
+            </div>
+
+            <br>
+
+            <div>
+              <input type="radio" name="answers" class="choices" value=2> <!-- INPUT RADIO POUR SELECTIONNER UN CHOIX -->
+              <p id="two" class="pickone text-success border m-2 mx-auto"></p> <!-- UNE DES REPONSES -->
+            </div>
+          </div>
+
+          <div id="next" class="scale-up-center mx-auto mt-5 p-5">Suivant</div> <!-- BOUTON SUIVANT -->
+        </div>
+
+
+        <div id="table">   <!-- DEBUT DE LA TABLE DES RESULTATS -->
+          <div id="score" class="text-warning"></div> <!-- AFFICHAGE DU SCORE -->
+          <div id="results" class="text-white">   <!-- DEBUT RESULTATS -->
+            <!-- AFFICHER LES RESULTAT (CI-DESSOUS) -->
+
+
+            <div>
+              <!-- FIN QUIZZ -->
+              <div>
+                <!-- La fin du quiz, ce sont l'explication du fonctionnement de
+                                la correction (en premier la réponse de l'utilisateur et
+                                  en deuxième c'est la bonne réponse)
+                         -->
+                <h4>Question</h4> <!-- TEXTE FIN QUIZ -->
+                <h4>Ta réponse en premier /</h4> <!-- TEXTE FIN QUIZ -->
+                <h4>Réponse correcte en deuxième</h4> <!-- TEXTE FIN QUIZ -->
+              </div>
+
+                <!--
+                      C'EST LA FIN DU QUIZZ ET ON DONNE LES REPONSES JUSTES ET FAUSSES
+                --->
+              <div class="row mt-3 m-3" name=0>  <!-- LA QUESTIOON AVEC LA REPONSE (1)-->
+                <h4 class="eltsel text-warning">En quelle année Buster Keaton se lance dans le cinéma ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=0></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=0></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=1>  <!-- LA QUESTIOON AVEC LA REPONSE (2)-->
+                <h4 class="eltsel text-warning">Il obtient son premier grand rôle, dans :</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=1></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=1></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=2>  <!-- LA QUESTIOON AVEC LA REPONSE (3)-->
+                <h4 class="eltsel text-warning">Quel était son surnom ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=2></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=2></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=3>  <!-- LA QUESTIOON AVEC LA REPONSE (4)-->
+                <h4 class="eltsel text-warning">A partir de quand sa carrière décline ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=3></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=3></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=3>  <!-- LA QUESTIOON AVEC LA REPONSE (5)-->
+                <h4 class="eltsel text-warning">Comment reconnait-on Lloyd ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=4></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=4></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=3>  <!-- LA QUESTIOON AVEC LA REPONSE (6)-->
+                <h4 class="eltsel text-warning">En quelle année est-il né ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=5></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=5></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=3>  <!-- LA QUESTIOON AVEC LA REPONSE (7)-->
+                <h4 class="eltsel text-warning">En quelle année est-il au sommet de sa carrière ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=6></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=6></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+              <hr>  <!-- ESPACE -->
+
+
+              <div class="row mt-3 m-3" name=3>  <!-- LA QUESTIOON AVEC LA REPONSE (8)-->
+                <h4 class="eltsel text-warning">Quel est son film le plus célèbre ?</h4>   <!-- LA QUESTIOON -->
+                <h4 class="eltsel">  <!-- LA DIV DE LA REPONSE DE L'UTILISATEUR -->
+                  <p class="userAnswer" value=7></p>  <!-- LA REPONSE DE L'UTILISATEUR -->
+                </h4>
+                <h4 class="eltsel">   <!-- LA DIV DE LA BONNE REPONSE -->
+                  <p class="correctAnswer" value=7></p>   <!-- LA BONNE REPONSE -->
+                </h4>
+              </div>
+
+
+            </div>   <!-- FIN FIN QUIZ -->
+          </div>   <!-- FIN RESULTATS -->
+        </div>   <!-- FIN DE LA TABLE DES RESULTATS -->
+
+      </div>  <!-- FIN DU QUIZZ -->
+  </section>   <!-- FIN DU CONTAINER -->
+  <!-- ###########################################
+                  fin QUUUUUUUUUUIZZ
+################################################ -->
+  <span class="m-5"></span>  <!-- ESPACE -->
+  <hr class="bg-white mt-5">  <!-- ESPACE -->
+  <span class="m-5"></span>  <!-- ESPACE -->
+
+
+  <section class="container mt-5">  <!-- CONTAINER -->
+    <div class="row mb-3">
+      <h4 class="text-white mx-auto">Organisatrice : </h4>   <!-- TEXTE FOOTER  -->
+      <h4 class="text-white mx-auto text-white w-80">Jennifer Vial</h4>  <!-- TEXTE FOOTER Organisatrice -->
+      <h4 class="text-white mx-auto text-warning">5 au 8 août au parc</h4>  <!-- TEXTE FOOTER DATE -->
+      <h4 class="text-white mx-auto text-warning">Monceau à Paris</h4>  <!-- TEXTE FOOTER LIEU -->
+    </div>
+
+    <div class="row border m-3 d-flex">
+      <p class="text-white mx-auto text-white m-2">Réalisé par Anthony Leman</p>  <!-- REALISATION DU SITE WEB -->
+    </div>
+  </section>  <!-- FIN CONTAINER -->
+  <!-- ###########################################
+                    FIN FOOTER
+################################################ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootsdivapcdn.com/bootsdivap/3.4.0/js/bootsdivap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootsdivapcdn.com/bootsdivap/4.3.1/js/bootsdivap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Anthony-ecf-2</title>
+</head>
+
+<body>
+<!-- ###########################################
+                  HEADER
+################################################ -->
+  <section class="container mt-3">
+    <div class="row">
+      <header class="header">
+        <a href="#" class="logo">Les Films de Plein Air</a> <!-- TITRE DU SITE -->
+        <input class="menu-btn" type="checkbox" id="menu-btn" /> <!-- HAMBURGER POUR OUVRIR MA NAVIGATION -->
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> <!-- ICON DE MON HAMBURGER -->
+        <ul class="menu">
+          <!-- NAVIGATION -->
+          <li><a href="index.html">Accueil</a></li> <!-- NAVIGATION -->
+          <li><a href="formulaire.html">Formulaire</a></li> <!-- NAVIGATION -->
+          <li><a href="quizz.html">Quizz - Tentez de remporter un ticket gratuit !</a></li> <!-- NAVIGATION -->
+        </ul> <!-- NAVIGATION -->
+      </header>
+    </div>
+  </section>
+
+
+<!-- ###########################################
+            PRESENTATION DES ACTEURS
+################################################ -->
+  <section class="container mt-5">  <!-- PRESENTATION DU FESTIVAL, AUTEUR DES FILMS -->
+    <!-- CONTAINER -->
+    <div class="row border">
+      <h4 class="mx-auto text-white mb-5 mt-3">Textes présentation</h4> <!-- PRESENTATION DU FESTIVAL, AUTEUR DES FILMS -->
+      <p class="mx-auto px-4 text-white mt-2">Inventif, casse-cou, émouvant, hilarant, Buster Keaton est tout cela à la fois, et révolutionne la comédie burlesque du début du 20esiècle, à la même époque que Charlie Chaplin. Son personnage introverti
+        mais téméraire, éternellement impassible et en quête d’amour, lui apportera une formidable notoriété. Le Keaton Project, mené par la Cinémathèque de Bologne et Cohen Films, permet de plonger dans son œuvre, en cours de restauration.Du cinéma
+        muet à découvrir en musique eten famille.</p> <!-- TEXTE DE PRESENTATION -->
+      <p class="mx-auto px-4 text-white mt-2">Troisième mousquetaire du trio du burlesque américain muet, aux côtés de Charlie Chaplin et de Buster Keaton, Harold Lloyd élabore lui aussi un personnage et un univers tout à fait singuliers. Ainsi, le
+        «jeune homme aux lunettes d’écailles»incarne l’Américain moyen qui aspire à la réussite sociale et au bonheur simple, mais que le sort entraîne dans de multiples péripéties.</p> <!-- TEXTE DE NAVIGATION -->
+    </div>
+  </section> <!-- CONTAINER -->
+
+
+  <!-- ###########################################
+              SLIDER POUR KEATON
+################################################ -->
+  <section class="container">    <!-- CONTAINER -->
+    <div class="row d-block mx-auto">
+      <div class="bd-example mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images-Keaton/La-croisiere-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="La croisiere affiche film">  <!-- IMAGE DU FILM -->
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Keaton/les-trois-ages-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Les trois age film">  <!-- IMAGE DU FILM -->
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Keaton/Sherlock-Junior-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Affiche film Sherlock">  <!-- IMAGE DU FILM -->
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Keaton/mecano-affiche.jpg" class="d-block w-60 mx-auto" style="width:40%" ; alt="Affiche film Mecano">  <!-- IMAGE DU FILM -->
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>   <!-- PRECEDENT SLIDER -->
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>   <!-- SLIDER SUIVANT -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>   <!-- CONTAINER -->
+
+<!-- ###################################################################################################################
+                                                  BIO POUR KEATON + SES FILMS
+######################################################################################################################## -->
+  <hr class="bg-white mt-3 mb-3">   <!-- ESPACE -->
+
+  <section class="container-fluid">   <!-- PRESENTATION DE BUSTER KEATON -->
+    <div class="row mt-3 col">
+      <h4 class="text-white mx-auto text-center border">Présentation de Buster Keaton</h4>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <img src="images-Keaton/Buster_keaton.jpg" alt="" class="d-block m-auto w-100 rounded-circle">
+      </div>
+
+      <div class="col-md-8">    <!-- PRESENTATION DE BUSTER KEATON -->
+        <p class="text-white mx-auto mt-3">Buster Keaton, issu d'une famille d'artistes, débute par le music-hall. Il se lance au cinéma en 1917 dans les films deFatty Arbuckle, le roi du "slapstick", mais ce n'est qu'en 1919 qu'il obtient son premier grand rôle dansLa Maison demontable. C'est dans une série de courts-métrages (Frigo demenageurouFrigo a l'Electric Hotelen 1922) qu'il confirme son talent pour la comédie burlesque.</p>  <!-- PRESENTATION DE BUSTER KEATON -->
+        <p class="text-white mx-auto mt-3">Celui que l'on a appelé tout au long de sa carrière "l'homme qui ne rit jamais", par opposition àCharlie Chaplin, se lance dans le long-métrage en tant que réalisateur et interprète. Suivant toujours les
+          aventures d'un homme dépassé par ses problèmes, il enchaîne les gags visuels avec intelligence et efficacité dans des films commeLes Trois Ages, une parodie d'IntolerancedeD.W. GriffithetLes Lois de l'hospitalitesur le thème de la vendetta. Il est à son apogée dansLa Croisiere du Navigator(1924) etLe Mécano de la General(1926), derniers films dont il a le plein contrôle. Réputé avoir filmé le déclin du comique, le réalisateurEdward Sedgwickmet en scèneBuster Keatondans des oeuvres redécouvertes aujourd'hui :Le Caméraman(1928),Le Figurant(1929) etLe metteur en scène(1930)en sont les exemples types</p>  <!-- PRESENTATION DE BUSTER KEATON -->
+        <p class="text-white mx-auto mt-3">Si sa carrière décline ce n'est vraiment qu'à la fin des années 30 : alcoolique, vieillissant, souffrant du passage au parlant, il se contente de caméos comme         dansBoulevard du crépusculedeBilly Wilder. Ce film nostalgique l'oppose aux stars du muet des années 20 :Gloria SwansonetErich Von Stroheim. Surnommé "le zombie", il donne tout de même une prestation comique remarquée aux côtés deCharlie ChaplindansLes Feux de la rampe(1956). A la fin de sa vie, l'acteur est honoré d'un oscar pour l'ensemble de sa carrière et entre enfin dans la légende du 7è art.
+        </p>  <!-- PRESENTATION DE BUSTER KEATON -->
+      </div>
+
+    </div>
+
+  </section>   <!-- FIN DE LA PRESENTATION DE BUSTER KEATON -->
+
+  <h4 class="text-white mx-auto text-center border text-warning col-md-12">Présentation de ses films</h4> <br>    <!-- PRESENTATION DES FILMS DE BUSTER KEATON -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- ##############################################################################################
+                          LA CROISIERE DU NAVIGATOR
+################################################################################################### -->
+  <section class="container mb-5 mt-3">   <!-- PRESENTATION DU FILM LA CROISIERE DU NAVIGATOR -->
+    <div class="row">
+      <div class="col-lg-6 d-block mx-auto">
+        <h4 class="text-white mx-auto text-center text-info border">LA CROISIÈRE DU NAVIGATOR</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-2">Date de sortie 13 mars 1925(0h 59min) <br> De Donald Crisp, Buster Keaton <br> Avec Buster Keaton, Kathryn McGuire, Frederick Vroom plus <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-2 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-1">Un couple loufoque composé de Rollo Treadway, un aristocrate fainéant, et de la roturière Betsy se retrouve seul à bord d’un navire à la dérive alors que la demoiselle a récemment écarté une demande en
+            mariage du jeune homme. Dès lors, ils s’organisent pour survivre loin de leurs domestiques et du confort, enchaînant les situations rocambolesques jusqu’à jeter l'ancre près des côtes d'une île pas si déserte qu'elle n'y paraît.</p>
+          <p class="text-white mx-auto mt-3">Titre original : "The Navigator" <br> Distributeur : Splendor Films <br> Récompense 1 nomination <br> Année de production : 1924 <br> Type de film : Long-métrage <br> Couleur : N&B</p>
+        </div>  <!-- FIN PRESENTATION DU FILM LA CROISIERE DU NAVIGATOR -->
+
+<!-- ################################################################################
+                        SLIDER IMAGES CROISIERE DU NAVIGATOR
+##################################################################################### -->
+        <div class="bd-example mt-3 d-block mx-auto">   <!-- SLIDER -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Keaton/La-croisiere1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="La croisiere image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/La-croisiere2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="La croisiere image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/La-croisiere3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="La croisiere image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FIN SLIDER IMAGE CROISIERE DU NAVIGATOR -->
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                LES TROIS AGES
+################################################################################################## -->
+      <div class="col-lg-5 d-block mx-auto">    <!-- PRESENTATION DU FILM -->
+        <div class="row col border">
+          <h4 class="text-white mx-auto text-center text-info">LES TROIS AGES</h4>
+        </div>
+        <div class="row">
+          <p class="text-white mx-auto mt-3">De Buster Keaton, Edward F. Cline <br> Avec Buster Keaton, Margaret Leahy, Wallace Beery <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-5">Durant l'âge de pierre, la Rome Antique et les Années folles, un jeune amoureux tente de gagner le cœur d'une belle jeune femme. Mais ses plans sont constamment contrecarrés par la présence de son rival,
+            bien plus à son avantage quelui.</p>
+          <p class="text-white mx-auto mt-5">Titre original : "The Three Ages"<br> Année de production : 1923 <br> Type de film : Long-métrage <br> Langues : Muet <br> Couleur : N&B</p>
+        </div>
+<!-- ############################################################################
+                                  SLIDER IMAGES LES TROIS AGES
+################################################################################# -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Keaton/les-trois-ages1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Les Trois Ages image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/les-trois-ages2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Les Trois Ages image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/les-trois-ages3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Les Trois Ages image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN SLIDER IMAGE LES TROIS AGES -->
+
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                  SHERLOCK JUNIOR
+################################################################################################## -->
+  <section class="container mt-5">   <!-- PRESENTATION DU FILM -->
+    <div class="row">
+      <div class="col-lg-6 d-block mx-auto">
+        <h4 class="text-white mx-auto text-center text-info border">SHERLOCK JUNIOR</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-3">De Buster Keaton <br> Avec Buster Keaton, Joe Keaton, Kathryn McGaire <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-3">Projectionniste dans un modeste cinéma, amoureux de la fille de son patron, unhomme rêve de devenir un grand détective. Un jour, tandis qu'il rend visite à la demoiselle de ses pensées pour lui offrir une
+            bague, son rival dérobe la montre du père, la place chez un prêteur sur gages puis glisse le billet dans la poche du pauvre amoureux. Celui-ci se met à jouer les détectives amateurs. Confondu, il est chassé de la maison...</p>
+          <p class="text-white mx-auto mt-5">Titre original : "Sherlock Jr"<br> Année de production : 1924 <br> Type de film : Long-métrage <br> Langues : Muet <br> Couleur : N&B</p>
+        </div>
+<!-- ##############################################################################
+                                    SLIDER IMAGES LES TROIS AGES
+################################################################################### -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Keaton/sherlock1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="SHERLOCK JUNIOR image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/sherlock2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="SHERLOCK JUNIOR image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/sherlock3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="SHERLOCK JUNIOR image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FIN SLIDER IMAGE SHERLOCK JUNIOR -->
+
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                      LE MÉCANO DE LA GÉNÉRALE
+################################################################################################## -->
+      <div class="col-lg-6">   <!-- PRESENTATION DU FILM -->
+        <h4 class="text-white mx-auto text-center text-info border">LE MÉCANO DE LA GÉNÉRALE</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-1">De Buster Keaton, Edward F. Cline <br> Avec Buster Keaton, Margaret Leahy, Wallace Beery <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-2">Le cheminot Johnnie Gray partage sa vie entre sa fiancée Annabelle Lee et sa locomotive, la Générale. En pleine Guerre de Sécession, il souhaite s'engager dans l'armée sudiste, mais celle-ci estime qu'il
+            se montrera plus utile en restant mécanicien. Pour prouver à Annabelle qu'il n'est pas lâche, il se lance seul à la poursuite d'espions nordistes qui se sont emparés d'elle et de sa locomotive...</p>
+          <p class="text-white mx-auto mt-3">Titre original : "The General"<br> Récompenses : 2 nominations <br> Année de production : 1926 <br> Type de film : Long-métrage <br> Secrets de tournage : 15 anecdotes <br> Budget US$ : 750 mil <br>
+            Langues : Muet <br> Couleur : N&B</p>
+        </div>
+<!-- ###############################################################################
+                          SLIDER IMAGES LE MÉCANO DE LA GÉNÉRALE
+#################################################################################### -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Keaton/mecano1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="MACANO image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/mecano2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="MACANO image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Keaton/mecano3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="MACANO image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <span class="m-5"></span>
+  <hr class="bg-white mt-3 mb-3">
+
+
+
+
+
+
+
+
+<!-- #######################################################################################################
+                    SLIDER POUR LLOYD + PRESENTATION BIO + PRESENTATION FILMS
+############################################################################################################## -->
+  <section class="container">
+    <div class="row d-block mx-auto">
+      <div class="bd-example mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images-Lloyd/Faut-pas-sen-faire-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Faut pas sen faire affiche film">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Lloyd/Monte-la-dessus-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Monte la dessus affiche film">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Lloyd/Petit-frere-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Petit frère affiche film">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-Lloyd/Vive-le-sport-affiche.jpg" class="d-block w-60 mx-auto" style="width:50%" ; alt="Vive le sport affiche film">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- #######################################################################################################
+                                          BIO POUR LLOYD + SES FILMS
+############################################################################################################ -->
+
+  <section class="container-fluid">
+    <div class="row mt-3 col">
+      <h4 class="text-white mx-auto text-center border">Présentation de Harold Clayton Lloyd</h4>
+    </div>
+    <div class="row">
+
+      <div class="col-md-4">
+        <img src="images-Lloyd/Harold_Lloyd.jpg" alt="Photo d'Harold Lloyd" class="d-block m-auto w-100 rounded-circle">
+      </div>
+
+      <div class="col-md-8">
+        <p class="text-white mx-auto mt-3">Illustre comique américain, dans la lignée deCharles ChaplinetBuster Keaton, on le reconnait avec son canotier et ses lunettes écaille. Il a marqué les esprits avec la célèbre scène dans laquelle il se
+          retrouve
+          suspendu dans le vide accroché aux aiguilles d’une horloge dans le filmMonte là-dessus! Il a tourné dans près de 200 films muets et parlants entre 1914 et 1947.</p>
+        <p class="text-white mx-auto mt-3">Harold Clayton Lloyd est né le 20 avril 1893. Il a un frère de 5 ans son aîné, Gaylord, qui a lui aussi tenté une carrière au cinéma, mais sans jamais connaître le même succès qu’Harold. Dès l’adolescence,
+          il
+          commence à faire du théâtre puis débute au cinéma après avoir déménagé en Californie. Une collaboration commence rapidement avec la société de production deThomas Edison, puis avec celle du célèbre acteur et réalisateurHal Roach. Lloyd
+          travaille beaucoup et devient l’acteur le plus populaire du studio Hal Roach. Lloyd a plusieurs partenaires à l’écran, contribuant à sa renommée :Bebe Danielsà partir de 1914,Mildred Davisde 1919 à 1923 (il l’épouse cette même année)
+          etJobyna
+          Ralston.</p>
+        <p class="text-white mx-auto mt-3">En 1921, le comédien fait ses premiers pas derrière la caméra. Son coup d’essai,Marin malgre lui, est un succès. Il enchaine avecGrandma's Boy, l’un des temps forts de sa carrière, confiera-t-il ensuite. En
+          1923, Lloyd est au sommet de sa carrière, à tous les sens du terme! C’est en effet cette année là qu’il se retrouve suspendu aux aiguilles d’une horloge qui le rendra célèbre dans le monde entier, le filmMonte là-dessus, sans doute l’un des
+          plus connus de sa longue filmographie. L’année suivante est marquée par la fin de sa collaboration avec Hal Roach. En plusd’être acteur et réalisateur, il devient producteur indépendant de ses films en fondant sa propre société, Harold
+          Lloyd
+          Film Corporation. Quelques uns de ses films les plus aboutis voient le jour à cette période :Ca t'la coupe,Vive le sport !,Le Petit frère...
+        </p>
+        <p class="text-white mx-auto mt-3">Harold Lloyd, devenu le spécialiste du film comique à suspense,
+          enchaine les longs métrages à toute allure et écrire son autobiographie dès 1928,An American Comedy. Cette même année, il tourne son dernier film muet :En vitesse. "Quel phénomène !" est son premier film parlant, tourné en 1929. C’est un
+          très
+          grand succès, le public étant curieux de découvrir enfin la voix de l’acteur ! Mais la carrière commence à décliner peu après, alors que la dépression sévit aux Etats-Unis: il tourne un peu moins et sa popularité baisse, tout comme le
+          niveau de
+          ses économies. Il se voit obligé de vendre ses studios et finit par mettre un trait sur sa carrière d’acteur.
+        </p>
+        <p class="text-white mx-auto mt-3">Il se lance par la suite dans la photographie et en tant qu’animateur radio. Il fait une dernière apparition dans le film dePreston Sturges, produit parHoward Hughes,Oh! Quel mercredi. En 1953, il reçoit un
+          Oscar pour l’ensemble de sa carrière. Il décède le 8 mars 1971 à Beverly Hills, à l’âge de 77 ans.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="container-fluid">
+    <div class="row mt-3 col">
+      <h4 class="text-white mx-auto text-center border text-warning col-md-12">Présentation de ses films</h4> <br>
+  </section>
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                        FAUT PAS SEN FAIRE
+################################################################################################## -->
+  <section class="container mt-5">   <!-- PRESENTATION DU FILM -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="mx-auto text-center border text-info">FAUT PAS SEN FAIRE</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-3">De Fred Newmeyer, Sam Taylor<br> Avec Harold Lloyd, Jobyna Ralston <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-3">Harold von Pelham, riche Américain hypocondriaque, débarque à Paradisio pour s'y reposer. Mais en fait Paradisio est en plein coup d'Etat.</p>
+          <p class="text-white mx-auto mt-5">Titre original : "Why Worry ?"<br> Année de production : 1923 <br> Type de film : Long-métrage <br> Langues : Muet <br> Format production 35 mn <br> Couleur : N&B</p>
+        </div>
+<!-- ###############################################################################
+                                SLIDER IMAGES FAUT PAS SEN FAIRE
+#################################################################################### -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Lloyd/faut-pas-sen-faire1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="faut-pas-sen-faire image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/faut-pas-sen-faire2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="faut-pas-sen-faire image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/faut-pas-sen-faire3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="faut-pas-sen-faire image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FIN SLIDER IMAGE FAUT PAS SEN FAIRE -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                      MONTE LÀ-DESSUS
+################################################################################################## -->
+      <div class="col-lg-6">   <!-- PRESENTATION DU FILM -->
+        <h4 class="mx-auto text-center border text-info">MONTE LÀ-DESSUS</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-2">De Fred C. Newmeyer, Sam Taylor <br> Avec Harold Lloyd, Mildred Davis, Bill Strother<br> Genres Comédie, Romance, Thriller <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-2 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-3">Harold est venu à Los Angeles pour faire fortune. Mais il stagne dans son job de petit vendeur. Il a une idée : proposer à son patron de faire de la publicité au magasin en faisant escalader la façade par
+            un ami acrobate. Sauf que voilà : c'est lui qui va devoir s'y coller !</p>
+          <p class="text-white mx-auto mt-3">Titre original : "Safety last"<br> Récompense : 1 nomination <br> Année de production : 1923 <br> Type de film : Long-métrage <br> Langues : Anglais <br> Couleur : N&B</p>
+        </div>
+<!-- #############################################################################
+                                  SLIDER IMAGES MONTE LÀ-DESSUS
+################################################################################## -->
+        <div class="bd-example mt-3">   <!-- PRESENTATION DU FILM -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Lloyd/Monte-la-dessus1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Monte-la-dessus image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/Monte-la-dessus2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Monte-la-dessus image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/Monte-la-dessus3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="Monte-la-dessus image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN SLIDER IMAGE MONTE LÀ-DESSUS -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                        LE PETIT FRÈRE
+################################################################################################## -->
+  <section class="container mt-5">   <!-- PRESENTATION DU FILM -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="mx-auto text-center border text-info">LE PETIT FRÈRE</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-3">De Harold Lloyd, Lewis Milestone <br> Avec Harold Lloyd, Jobyna Ralston, Leo Willis <br> Genre Comédie <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-3">Harold, dernier des trois fils du shérif Hickory, va sauver malgré lui son père, accusé à tort de détournement d'argent, en poursuivant les deux voleurs.</p>
+          <p class="text-white mx-auto mt-5">Titre original : "The Kid Brother"<br> Année de production : 1926 <br> Type de film : Long-métrage <br> Langues : Muet <br> Couleur : N&B</p>
+        </div>
+<!-- #############################################################################
+                            SLIDER IMAGES LE PETIT FRÈRE
+################################################################################## -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Lloyd/Petit-frere1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="LE PETIT FRÈRE image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/Petit-frere2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="LE PETIT FRÈRE image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/Petit-frere3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="LE PETIT FRÈRE image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FIN SLIDER IMAGE LE PETIT FRÈRE -->
+
+
+
+
+
+
+
+
+<!-- #############################################################################################
+                                    VIVE LE SPORT
+################################################################################################## -->
+      <div class="col-lg-6">   <!-- PRESENTATION DU FILM -->
+        <h4 class="mx-auto text-center border text-info">VIVE LE SPORT !</h4>
+        <div class="row">
+          <p class="text-white mx-auto mt-3">De Fred Newmeyer, Sam Taylor <br> Avec Harold Lloyd, Jobyna Ralston, Brooks Benedict <br> Genre Comédie, Famille <br> Nationalité Américain</p>
+          <h4 class="text-white mx-auto mt-3 col-md-12">SYNOPSIS ET DÉTAILS</h4>
+          <p class="text-white mx-auto mt-3">Harold Lamb est la risée du collège. Une victoire inattendue au match de foot va lui permettre de changer sa réputation.</p>
+          <p class="text-white mx-auto mt-4">Titre original : "The Freshman"<br> Récompense : 1 nomination <br> Année de production : 1925 <br> Type de film : Long-métrage <br> Langues : Muet <br> Couleur : N&B</p>
+        </div>
+<!-- #############################################################################
+                          SLIDER IMAGES VIVE LE SPORT
+################################################################################## -->
+        <div class="bd-example mt-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images-Lloyd/vive-le-sport1.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="VIVE LE SPORT ! image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/vive-le-sport2.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="VIVE LE SPORT ! image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images-Lloyd/vive-le-sport3.jpg" class="d-block w-60 mx-auto" style="width:60%" ; alt="VIVE LE SPORT ! image">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- VIVE LE SPORT ! -->
+
+
+
+
+
+
+
+<!-- ###########################################
+                    FOOTER
+################################################ -->
+  <span class="m-5"></span>
+  <hr class="bg-white mt-3 mb-3">
+  <span class="m-5"></span>
+  <section class="container mt-5">
+    <div class="row mb-3">
+      <h4 class="text-white mx-auto">Organisatrice : </h4>
+      <h4 class="text-white mx-auto text-white w-80">Jennifer Vial</h4>
+      <h4 class="text-white mx-auto text-warning">5 au 8 août au parc</h4>
+      <h4 class="text-white mx-auto text-warning">Monceau à Paris</h4>
+    </div>
+
+    <div class="row border m-3 d-flex">
+      <p class="text-white mx-auto text-white m-2">Réalisé par Anthony Leman</p>
+    </div>
+  </section>
+  <!-- ###########################################
+                    FIN FOOTER
+################################################ -->
+  <!-- #####################################
+                SCROLLTOP
+######################################## -->
+  <div id='scrolltop'>
+    <i class="fas fa-caret-square-up fa-3x"></i>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
